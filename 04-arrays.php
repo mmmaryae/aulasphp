@@ -58,11 +58,14 @@
 
         <!--  <pre> muda a letra e faz uma indentação  organiza-->
 
+        <!-- Quantidade de letras e posição -->
+
         <h3>print_r(nomeArray)</h3>
         <pre> <?= print_r($bandas) ?> </pre>
 
+
+        <!-- pega o estilo e tamanho/ melhor-->
         <h3>var_dump(nomeArray)</h3>
-        <!-- pega o estilo e tamanho -->
         <pre> <?= var_dump($bandas) ?> </pre>
 
 
