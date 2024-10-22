@@ -27,7 +27,7 @@
     ?>
 
     <ol>
-
+ 
         <li> Nome de usuário: <?= $info["nome"] ?></li>
 
         <li>Idade: <?= $info["idade"] ?></li>
