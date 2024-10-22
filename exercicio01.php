@@ -33,6 +33,9 @@
 
     ?>
 
+
+<h1>Array associativo</h1>
+<!-- ao inves de numero é o nome que vc deu -->
     <ol>
  
         <li> Nome de usuário: <?= $info["nome"] ?></li>
@@ -44,8 +47,9 @@
         <li>Telefones: <?= $info["telefone" ][1] ?></li>
 
     </ol>
+<hr>
 
-<!-- Array numerico/indexado -->
+<!-- Array numérico/indexado -->
 <!-- Começa em 0,1,2,3,4,5... -->
 
 <?php
@@ -60,14 +64,20 @@ $dados1 = [
 // idade sem "" pois pode calcular
 ];
 
-
-
-
 ?>
 
+<h2>Array numérico</h2>
+<!-- abrevido o php pq so vai mostar -->
+<!-- Dois pares de colchetes poius são dois vetore, tipo dois no quadradinho ex: 1223, 1223 -->
+ <!-- 1- [] Posição que se encontra 'linha' -->
+  <!-- 2- [] Posição num dele 0,1,2--> 
 
-
-
+<ol>
+    <li> Nome: <?=$dados1[0]?>  </li>
+    <li>Idade: <?=$dados1[2]?> anos </li>
+    <li>Cidade: <?=$dados1[3]?></li>
+    <li>Numero: <?=$dados1[4] [1]?></li>
+</ol>
 
 
 </body>
